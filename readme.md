@@ -19,4 +19,4 @@
     <li>app/TestParser.php</li>
 </ul>
 
-<p>Файлы веб-ресурсов хранятся в storage/app/public/</p>
+<p>Файлы веб-ресурсов хранятся в storage/app/public/ </p>
