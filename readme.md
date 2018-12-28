@@ -9,6 +9,8 @@
     <li>Для того чтобы вывести загруженные веб-ресурсы создал контроллер FilesController (app/Http/Controllers/FilesController.php) и через него обращаюсь к методу getFiles класса TestParser (app/TestParser.php). В этом методе извлекаю информацию о файлах и передаю в шаблон ввиде массива. В шаблоне testpage.blade в таблице вывожу файлы.</li>
 </ul>
 
+<p>Как выглядит веб-приложение, показано на картинке screenshot.jpg</p>
+
 <p>Написанный мною код лежит в следующих файлах:</p>
 <ul>
     <li>resources/views/layoutstestpage.blade.php</li>
