@@ -1,0 +1,115 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "MontserratRegular", sans-serif;
+	overflow-x: hidden;
+}
+
+body .container a:focus, body .container a:hover, body .container a:active{
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.title-page h1{
+	font-size: 24px;
+	font-family: "MontserratBold", sans-serif;
+	text-align: center;
+	margin-bottom: 20px
+}
+
+.links-page{
+	text-align: center;
+}
+
+.btn-custom{
+	color: #fff;
+	font-family: "MontserratBold", sans-serif;
+	font-size: 14px;
+}
+
+.content-center{
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-content: center;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+form.form-custom, .table-responsive{
+	position: relative;
+	margin-top: 60px;
+	padding: 25px 25px 35px;
+	background-color: #f7f7f7;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+form.form-custom label{
+	display: block;
+	font-size: 14px;
+	text-align: left;
+}
+
+form.form-custom input.form-control,
+form.form-custom button.btn{
+	width: 100%;
+}
+
+form.form-custom button.btn{
+	margin-top: 30px
+}
+
+form.form-custom input[type="submit"]{
+	font-family: "MontserratBold", sans-serif;
+}
+
+.alert-error, .alert-success{
+	position: absolute;
+	content: "";
+	bottom: 9px;
+	left: 25px;
+	font-size: 12px;
+	color: #ff2f00;
+}
+
+.alert-success{
+	color: #28a745;
+	background-color: transparent;
+}
+
+.list-files{
+	margin-top: 20px
+}
+
+.list-files h2{
+	font-size: 24px;
+	font-family: "MontserratBold", sans-serif;
+	margin-bottom: 20px
+}
+
+.list-files table{
+	font-size: 14px;
+}
+
+.list-files .number-file, 
+.list-files .download-file,
+.list-files table thead th{
+	text-align: center;
+}
+
+.list-files table thead th{
+	font-family: "MontserratBold", sans-serif;
+}
+
+.list-files table td{
+	vertical-align: middle;
+}
